@@ -47,7 +47,7 @@ For mobile **Hover** state was disabled.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://hauvig.github.io/social_links_profile/)
+- Solution URL: [https://hauvig.github.io/social_links_profile/](https://hauvig.github.io/social_links_profile/)
 
 ## My process
 
