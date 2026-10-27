@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Colors styles */
+:root {
+  --Green: hsl(75, 94%, 57%);
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 20%);
+  --Grey_2: hsl(0, 0%, 12%);
+  --Off_Black: hsl(0, 0%, 8%);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+  font-family: Inter;
+  background-color: var(--Off_Black);
+}
+
+/* Main */
+
+.wrapp {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  background-color: var(--Grey_2);
+  border-radius: 15px;
+
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  min-width: 20rem;
+  max-width: 25rem;
+  margin-bottom: 2rem;
+}
+
+.profile_img,
+.profile_name,
+.profile_desc {
+  margin-bottom: 1rem;
+}
+
+.profile_img {
+  margin-bottom: 1.5rem;
+}
+
+.profile_img img {
+  border-radius: 50%;
+  width: 88px;
+  height: 88px;
+}
+
+.profile_name h1 {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 0.6rem;
+}
+
+.profile_name {
+  color: var(--White);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.profile_name p {
+  color: var(--Green);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.profile_desc {
+  color: var(--White);
+  text-align: center;
+  font-size: 14.4px;
+  margin-bottom: 1.7rem;
+}
+
+/* Links */
+
+.profile_buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  align-self: stretch;
+}
+
+/* LVHA */
+.profile_buttons a:link,
+.profile_buttons a:visited {
+  color: var(--White);
+  font-weight: 600;
+  background-color: var(--Grey);
+  padding: 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.profile_buttons a:hover,
+.profile_buttons a:active {
+  background-color: var(--Green);
+  color: var(--Grey);
+}
+
+/* footer */
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+  color: var(--White);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Media */
+@media screen and (min-width: 420px) {
+  .content {
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .wrapp {
+    /* padding: 0; */
+  }
+  .profile_buttons a:hover,
+  .profile_buttons a:active {
+    background-color: var(--Grey);
+    color: var(--White);
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .wrapp {
+    /* padding: 0; */
+  }
+}
