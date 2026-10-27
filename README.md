@@ -27,7 +27,6 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
 1.Desktop version:
 
 ![Desktop_design](screenshots/destkop-design.png)
@@ -48,8 +47,7 @@ For mobile **Hover** state was disabled.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://hauvig.github.io/social_links_profile/)
 
 ## My process
 
